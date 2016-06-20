@@ -17,7 +17,7 @@ ENV CONFD_VERSION=${CONFD_VERSION:-0.11.0}
 LABEL architecture="amd64" \
   vendor=stonevil \
   com.stonevil.os="alpine" \
-  com.stonevil.version="edge" \
+  com.stonevil.os.version="edge" \
   com.stonevil.gosu.version=${GOSU_VERSION} \
   com.stonevil.confd.version=${CONFD_VERSION}
 
