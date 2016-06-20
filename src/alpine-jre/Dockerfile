@@ -1,4 +1,4 @@
-FROM stonevil/alpine-glibc
+FROM quay.io/stonevil/alpine-glibc
 MAINTAINER stonevil@gmail.com
 
 ENV JAVA_HOME_BASE=${JAVA_HOME_BASE:-/opt}

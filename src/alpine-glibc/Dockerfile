@@ -1,4 +1,4 @@
-FROM stonevil/alpine-base
+FROM quay.io/stonevil/alpine-base
 MAINTAINER stonevil@gmail.com
 
 ENV ALPINE_GLIBC_BASE_URL=${ALPINE_GLIBC_BASE_URL:-https://github.com/andyshinn/alpine-pkg-glibc/releases/download}

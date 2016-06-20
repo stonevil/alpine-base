@@ -1,4 +1,4 @@
-FROM stonevil/alpine-glibc
+FROM quay.io/stonevil/alpine-glibc
 MAINTAINER stonevil@gmail.com
 
 ENV NPM_UPGRADE_CMD="npm update -g"

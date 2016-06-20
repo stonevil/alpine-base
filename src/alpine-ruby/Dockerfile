@@ -1,4 +1,4 @@
-FROM stonevil/alpine-base
+FROM quay.io/stonevil/alpine-base
 MAINTAINER stonevil@gmail.com
 
 ENV GEM_UPGRADE_CMD="gem update"
